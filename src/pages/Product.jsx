@@ -28,10 +28,6 @@ export default class Counter extends Component {
     return;
   }
 
-  componentWillUnmount() {
-    // console.log("unmounting...");
-  }
-
   render() {
     const { Panel } = Collapse;
     const { product } = this.props;
