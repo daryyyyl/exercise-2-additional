@@ -86,8 +86,14 @@ const ProductForm = ({ onSubmit, initialValue }) => {
         </Form.Item>
 
         <Form.Item wrapperCol={{ offset: 10, span: 4 }}>
-          <Button type="primary" htmlType="submit" style={{ width: "100%" }}>
-            Submit
+          <Button
+            type="primary"
+            size="large"
+            htmlType="submit"
+            style={{ width: "100%" }}
+            icon={<i className="fa-solid fa-floppy-disk me-2"></i>}
+          >
+            SUBMIT
           </Button>
         </Form.Item>
       </Form>
